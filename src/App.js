@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Firstcomponent from './Firstcomponent.js';
+import Studentprops from './Studentprops.js';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         </a>
       </header> */}
       <Firstcomponent />
+      <Studentprops name={"sujeet"} email={"sujeet@mail.com"} other={{address:"delhi",phone:"8978678"}}/>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quas non numquam iste nam enim culpa, aliquid error, neque quis dolore. Eveniet unde veritatis quisquam est earum repudiandae tempore enim?</p>
     </div>
   );
