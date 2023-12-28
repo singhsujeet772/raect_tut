@@ -5,10 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Hideshow from './Hideshow.js';
 import Formdata from './Formdata.js';
+import Profile from './Profile.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Profile />
     <Formdata />
     <Hideshow />
     <App />
