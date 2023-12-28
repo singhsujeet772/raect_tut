@@ -1,5 +1,5 @@
 import { useState } from "react";
- 
+
 function Firstcomponent() {
     const [data,setData] = useState(0);
     function incrementData()

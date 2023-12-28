@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Hideshow from './Hideshow.js';
+import Formdata from './Formdata.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Formdata />
     <Hideshow />
     <App />
   </React.StrictMode>
