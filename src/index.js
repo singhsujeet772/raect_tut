@@ -6,10 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import Hideshow from './Hideshow.js';
 import Formdata from './Formdata.js';
 import Profile from './Profile.js';
+import Login from './Login.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Login />
     <Profile />
     <Formdata />
     <Hideshow />
