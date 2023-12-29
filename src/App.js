@@ -3,6 +3,7 @@ import { useState } from "react";
 import './App.css';
 import Firstcomponent from './Firstcomponent.js';
 import Studentprops from './Studentprops.js';
+import Userone from './Userone.js';
 
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
   function getInputData(val){
     setVal(val.target.value)
     setPrint(false)
+  }
+  function getPropData(){
+    alert('Pass function as Props');
   }
   return (
     <div className="App">
@@ -36,6 +40,7 @@ function App() {
       <h2>{val}</h2>
       <input type='text' onChange={getInputData}/>
       <h1>{data}</h1>
+      <Userone propdata={getPropData} />
       <Firstcomponent />
       <Studentprops name={"sujeet"} email={"sujeet@mail.com"} other={{address:"delhi",phone:"8978678"}}/>
       <button onClick={()=>setData("Modi")}>Change Name</button>
