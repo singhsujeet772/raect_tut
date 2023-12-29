@@ -7,10 +7,12 @@ import Hideshow from './Hideshow.js';
 import Formdata from './Formdata.js';
 import Profile from './Profile.js';
 import Login from './Login.js';
+import Appclass from './Appclass.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Appclass />
     <Login />
     <Profile />
     <Formdata />
